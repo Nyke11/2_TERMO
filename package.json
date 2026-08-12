@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "readline-sync": "^1.4.10"
-  }
+  },
+  "name": "2_termo",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u00002\u0000_\u0000T\u0000E\u0000R\u0000M\u0000O\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nyke11/2_TERMO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Nyke11/2_TERMO/issues"
+  },
+  "homepage": "https://github.com/Nyke11/2_TERMO#readme"
 }
