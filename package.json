@@ -1,7 +1,4 @@
 {
-  "dependencies": {
-    "readline-sync": "^1.4.10"
-  },
   "name": "2_termo",
   "version": "1.0.0",
   "description": "��#\u0000 \u00002\u0000_\u0000T\u0000E\u0000R\u0000M\u0000O\u0000\r\u0000 \u0000",
@@ -20,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Nyke11/2_TERMO/issues"
   },
-  "homepage": "https://github.com/Nyke11/2_TERMO#readme"
+  "homepage": "https://github.com/Nyke11/2_TERMO#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
