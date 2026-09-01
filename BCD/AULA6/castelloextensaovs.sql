@@ -1,0 +1,21 @@
+CREATE DATABASE CASTELLO_EXTENSAOVS
+    DEFAULT CHARACTER SET = 'utf8mb4';
+
+ USE CASTELLO_EXTENSAOVS
+    
+-- VISUALIZAR TABELAS DO MEU BD
+SHOW TABLES;
+
+-- VISUALIZAR TODOS OS BD
+SHOW SCHEMAS;
+
+-- CRIIAR TABELAS
+CREATE TABLE IF NOT EXISTS ALUNOS(
+    Id_Cliente Bigint AUTO_INCREMENT PRIMARY KEY,
+    Nome varchar(60) not null,
+    CPF varchar(14) not null,
+    Telefone varchar(15),
+    Data_Nascimento datetime,
+    Status enum('Ativo', 'Inaivo') default 'Ativo',
+    Data_Cadrastro timestamp default current_timestamp
+);
