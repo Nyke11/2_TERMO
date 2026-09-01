@@ -12,6 +12,7 @@ USE CLINICA_MEDICA_MONYKE;
 SHOW TABLES;
 
 -- COMANDO PARA CRIAR TABELAS
+
 CREATE TABLE MEDICO (
 Id_Medico int auto_increment primary key,
 Nome varchar(60) not null,
@@ -31,7 +32,6 @@ Id_Pacientes int auto_increment primary key,
 CPF varchar(60) not null,
 Nome_Completo varchar(60) not null
 );
-
 -- COMANDOS PARA ALTERAR INFORMAÇÕES
 -- ADICIONAR UM NOVO ATRIBUTO
 ALTER TABLE PACIENTES ADD TELEFONE VARCHAR(15);
