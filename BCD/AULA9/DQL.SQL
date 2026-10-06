@@ -243,7 +243,7 @@ HAVING condicao_agrupar
 ORDER BY colunas
 LIMIT quantidade;
 
-SELECT nome, cidade, COUNT(*) AS Quantidade_Clientes
+SELECT cidade, COUNT(*) AS Quantidade_Clientes
 FROM cliente
 WHERE cidade = 'Limeira'
 GROUP BY cidade
