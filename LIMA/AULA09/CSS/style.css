@@ -12,7 +12,7 @@
     padding: 10px;
 } */
 
-.cabecalho{
+.cabecalho {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #123B63;
     color: #FFF8E7;
@@ -23,16 +23,13 @@
 nav ul {
     display: flex;
     justify-content: flex-end;
-    align-items: right;
+    align-items: center;
     background-color: #123B63;
     padding: 10px;
-    text-decoration: none;
-    
 }
 
 nav a {
     text-decoration: none;
-    align-items: right;
     color: white;
 }
 
@@ -47,5 +44,158 @@ ul {
 h1 {
     float: left;
     padding-bottom: 10px;
+}
 
+.banner {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF8E7;
+    padding: 30px;
+}
+
+.banner-conteudo {
+    width: 45;
+}
+
+.banner-conteudo h1 {
+    color: #123B63;
+}
+
+.banner-conteudo a {
+    background-color: #FF7A00;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.banner-imagem {
+    width: 45;
+}
+
+.banner-imagem img {
+    width: 100;
+}
+
+.sobre {
+    background-color: rgba(253, 241, 226, 0.89);
+    padding: 30px;
+}
+
+.sobre-smartcoffee {
+    float: left;
+    width: 45;
+}
+
+.sobre-smartcoffee img {
+    width: 100;
+}
+
+.sobre-cabecalho h2 {
+    color: #123B63;
+}
+
+.sobre a {
+    background-color: #FF7A00;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.cafes {
+    background-color: #FFF8E7;
+    padding: 30px;
+}
+
+.listas-cafes {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.card-cafes {
+    background-color: rgba(253, 241, 226, 0.89);
+    padding: 15px;
+    border: 2px solid #FF7A00;
+}
+
+.imagem-cafes img {
+    width: 100;
+}
+
+.card-cafes h3 {
+    color: #123B63;
+}
+
+.card-cafes strong {
+    color: #FF7A00;
+}
+
+.Ambiente {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(253, 241, 226, 0.89);
+    padding: 30px;
+}
+
+.Ambiente-conteudo {
+    width: 45;
+}
+
+.Ambiente-conteudo h2 {
+    color: #123B63;
+}
+
+.Ambiente-conteudo a {
+    background-color: #FF7A00;
+    color: rgba(253, 241, 226, 0.89);
+    padding: 10px;
+    text-decoration: none;
+}
+
+.Ambiente-imagem {
+    width: 45;
+}
+
+.Ambiente-imagem img {
+    width: 100;
+}
+
+.contato {
+    background-color: #FFF8E7;
+    padding: 30px;
+}
+
+.contato-cabecalho h2 {
+    color: #123B63;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50;
+}
+
+input {
+    padding: 10px;
+}
+
+textarea {
+    padding: 10px;
+}
+
+button {
+    background-color: #FF7A00;
+    color: rgba(253, 241, 226, 0.89);
+    padding: 10px;
+}
+
+footer {
+    background-color: #123B63;
+    color: rgba(253, 241, 226, 0.89);
+    padding: 20px;
+    text-align: center;
+}
+
+footer nav ul {
+    justify-content: center;
 }
