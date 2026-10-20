@@ -14,20 +14,25 @@ USE smartcoffee_dml;
 -- PARTE A - INSERT
 
 -- 1. Cadastre dois novos clientes com dados diferentes.
-INSERT INTO cliente (nome, email, telefone, cidade, ativo) VALUES
-('Jesus N', 'JesusN@email.com', '1996699922', 'Belem', TRUE),
-('Wlesley C', 'WlesleyC@email.com', '1996699923', 'Brotas', TRUE);
-
+INSERT INTO cliente (nome,email,telefone,cidade) VALUES
+('Maria Clara','maria.c09@email.com','19980000011','Limeira'),
+('Julia Ferreira','julia.f09@email.com','19980000022','Americana');
 -- 2. Cadastre a categoria 'Especiais da Casa'.
-INSERT INTO categoria (nome_categoria) VALUES ('Especiais da casa');
+INSERT INTO categoria (nome) VALUES ('Especiais da Casa');
 
 -- 3. Localize o id da categoria criada e cadastre três produtos nela.
-INSERT INTO produtos (nome_porduto, preco, ativo, id_categoria);
-('Hamburguer Especial', 25.00, LAST_INSERT_ID());
-('Batata fritas', 15.00, LAST_INSERT_ID());
-('Suco', 5.00, LAST_INSERT_ID());
+SELECT id_categoria,nome FROM categoria WHERE nome='Especiais da Casa';
+SET @categoria_especial = (SELECT id_categoria FROM categoria WHERE nome='Especiais da Casa');
+INSERT INTO produto (nome,preco,id_categoria) VALUES
+('Hambuerguer',17.00,@categoria_especial),
+('Chocolate da Casa',16.50,@categoria_especial),
+('Croissant Especial',18.00,@categoria_especial);
 
 -- 4. Cadastre um terceiro cliente sem telefone.
+INSERT INTO CLIENTE (NOME, EMAIL, CIDADE, ATIVO)
+VALUES ('BRYAN R', 'BRAYAN@EMAIL.COM', 'LIMEIRA',  NULL, TRUE);
+
+SET @CLIENTE = LAST_INSERT_ID();
 
 
 -- 5. Crie um novo pedido para um dos clientes cadastrados.
