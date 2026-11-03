@@ -1,0 +1,22 @@
+.Equipe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 8%;
+}
+
+.menu-e {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    align-items: center;
+    align-items: flex-end;
+}
