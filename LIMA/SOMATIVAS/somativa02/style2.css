@@ -1,0 +1,362 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background: #0b1020;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+/* CABEÇALHO */
+
+
+.cabecalho {
+    background: #151b35;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cabecalho h1 {
+    color: #00d9ff;
+    font-size: 30px;
+}
+
+
+.cabecalho span {
+    color: #ff4fa3;
+}
+
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+
+nav a {
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+
+nav a:hover {
+    color: #00d9ff;
+}
+
+
+/* BANNER */
+
+
+.banner {
+    background: linear-gradient(135deg, #202b58, #101326);
+    padding: 90px 8%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.banner-conteudo {
+    width: 50%;
+}
+
+
+.banner-conteudo h2 {
+    color: #ff4fa3;
+    font-size: 22px;
+}
+
+
+.banner-conteudo h1 {
+    color: #00d9ff;
+    font-size: 45px;
+    margin: 20px 0;
+}
+
+
+.banner-conteudo p {
+    color: #ddd;
+    line-height: 1.7;
+}
+
+
+.banner-conteudo a {
+    display: inline-block;
+    background: #ff4fa3;
+    color: white;
+    padding: 15px 30px;
+    margin-top: 25px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+
+.banner-conteudo a:hover {
+    background: #00d9ff;
+    color: #101326;
+    transform: scale(1.05);
+}
+
+
+.banner-imagem {
+    width: 50%;
+}
+
+
+.banner-imagem img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px #0008;
+}
+
+
+/* DESENHOS CLÁSSICOS */
+
+
+.classicos {
+    background: #11172c;
+    padding: 80px 8%;
+    text-align: center;
+}
+
+
+.classicos h1 {
+    color: #00d9ff;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+
+.classicos p {
+    color: #ccc;
+}
+
+
+.desenhos {
+    display: flex;
+    gap: 25px;
+    margin-top: 45px;
+}
+
+
+.card-desenhos {
+    background: #202b4b;
+    padding: 15px;
+    border-radius: 15px;
+    flex: 1;
+    transition: 0.3s;
+}
+
+
+.card-desenhos:hover {
+    transform: translateY(-10px);
+    background: #303e68;
+}
+
+
+.card-desenhos img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+
+.card-desenhos h3 {
+    color: #ffca3a;
+    margin-top: 15px;
+}
+
+.herois {
+    background: #0b1020;
+    padding: 80px 8%;
+    text-align: center;
+}
+
+
+.herois h1 {
+    color: #ff4fa3;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+
+.herois p {
+    color: #ccc;
+}
+
+
+.lista-herois {
+    display: flex;
+    gap: 25px;
+    margin-top: 45px;
+}
+
+
+.card-herois {
+    background: #202b4b;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 33.33%;
+    transition: 0.3s;
+}
+
+
+.card-herois:hover {
+    transform: scale(1.04);
+}
+
+
+.card-herois img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+
+.card-herois h3 {
+    color: white;
+    padding: 15px;
+}
+
+
+.card-herois p {
+    color: #00d9ff;
+    padding-bottom: 15px;
+}
+
+.hoje {
+    background: #151b35;
+    padding: 80px 8%;
+    text-align: center;
+}
+
+
+.hoje h1 {
+    color: #00d9ff;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+
+.lista-hoje {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+
+.lista-hoje li {
+    background: #202b4b;
+    width: 31%;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+
+.lista-hoje li:hover {
+    transform: translateY(-8px);
+}
+
+
+.lista-hoje img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+
+.lista-hoje h3 {
+    color: #ffca3a;
+    padding: 15px;
+}
+
+
+.informacao-hoje {
+    padding: 30px;
+    min-height: 220px;
+}
+
+
+.informacao-hoje p {
+    color: #ff4fa3;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+.informacao-hoje h4 {
+    color: #00d9ff;
+    margin: 15px 0;
+}
+
+.sobre {
+    background: linear-gradient(135deg, #242b59, #54245f);
+    text-align: center;
+    padding: 90px 20px;
+}
+
+
+.sobre h2 {
+    color: #00d9ff;
+    font-size: 25px;
+}
+
+
+.sobre h1 {
+    color: #ff4fa3;
+    font-size: 70px;
+    margin: 20px 0;
+}
+
+
+.sobre p {
+    color: white;
+    font-size: 18px;
+}
+
+.rodape {
+    background: #080c18;
+    text-align: center;
+    padding: 40px 20px;
+    border-top: 3px solid #00d9ff;
+}
+
+
+.rodape h3 {
+    color: #ff4fa3;
+    font-size: 25px;
+}
+
+
+.rodape p {
+    color: #aaa;
+    margin-top: 15px;
+}
