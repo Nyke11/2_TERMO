@@ -105,7 +105,7 @@ img {
     transition: filter 0.3s;
 }
 
-.banner-imagem img {
+.banner-imagem:hover img {
     filter: blur(2px);
 }
 
