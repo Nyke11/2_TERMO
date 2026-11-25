@@ -54,6 +54,7 @@ img {
     background-color: #F47721;
 }
 
+
 .banner {
     display: flex;
     align-items: center;
@@ -109,6 +110,7 @@ img {
     filter: blur(2px);
 }
 
+
 .atracciones {
     padding: 40px 5%;
     background-color: #FFD447;
@@ -154,6 +156,7 @@ img {
     object-fit: cover;
     border-radius: 8px;
 }
+
 
 .programacion {
     padding: 40px 5%;
@@ -211,4 +214,98 @@ img {
     color: #FFF1D6;
     background-color: #F47721;
     text-align: center;
+}
+
+@media (max-width: 900px) {
+
+    .cabecalho {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cabecalho nav ul {
+        justify-content: center;
+    }
+
+    .banner {
+        gap: 20px;
+        min-height: auto;
+    }
+
+    .banner-imagem {
+        flex: 0 1 45%;
+    }
+
+    .lista-atracciones > li {
+        flex: 0 1 45%;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .cabecalho {
+        padding: 15px;
+    }
+
+    .cabecalho h1 {
+        font-size: 24px;
+    }
+
+    .cabecalho nav ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .banner {
+        flex-direction: column;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .banner-conteudo h1 {
+        font-size: 28px;
+    }
+
+    .banner-imagem {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .atracciones {
+        padding: 30px 20px;
+    }
+
+    .lista-atracciones {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lista-atracciones > li {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .programacion {
+        padding: 30px 20px;
+    }
+
+    .programacion ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .programacion li {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .sobre {
+        padding: 30px 20px;
+    }
+
+    .rodape {
+        padding: 20px 10px;
+    }
+
 }
